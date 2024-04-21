@@ -1494,3 +1494,12 @@ input, select, textarea {
 		.frame-container:hover .iframe-button {
 			display: initial;
 		}
+
+		[data-url]::after {
+			content: attr(data-url)
+		}
+
+		#iFrame{
+			width:"100%"; 
+			height:"800";
+		}
