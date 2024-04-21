@@ -1465,3 +1465,32 @@ input, select, textarea {
 			}
 
 		}
+
+		.frame-container {
+			position: relative;
+		  }
+
+		.iframe-button3 {
+		/* display: none; */
+		position: absolute;
+		top: 580px;
+		left: 15px;
+		color: blue;
+		}
+		.iframe-button {
+		/* display: none; */
+		position: absolute;
+		top: 650px;
+		left: 15px;
+		color: pink;
+		}
+		.iframe-button2 {
+		/* display: none; */
+		position: absolute;
+		top: 720px;
+		left: 15px;
+		color: blue;
+		}
+		.frame-container:hover .iframe-button {
+			display: initial;
+		}
